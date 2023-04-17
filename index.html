@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Quiz</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div id="quiz-container">
+      <h1>Quiz</h1>
+
+        <div class="timer">
+  <span id="minutes">00</span>:<span id="seconds">00</span>
+</div>
+
+
+
+      <div id="question-container" class="hide">
+        <p id="question"></p>
+        <ul id="answer-buttons"></ul>
+      </div>
+      <div id="controls">
+        <input id="name-input" type="text" placeholder="Enter your name" required>
+        <input id="number-input" type="number" placeholder="Enter your ID number" required>
+        <button id="start-button">Start</button>
+        <button id="next-button" class="hide">Next</button>
+      </div>
+      <div id="score-container" class="hide">
+        <h2>Your Score</h2>
+        <div id="score-chart"></div>
+        <p id="score-text"></p>
+      </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
